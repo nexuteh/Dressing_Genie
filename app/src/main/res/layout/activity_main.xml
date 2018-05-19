@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/man"
+        tools:context=".Welcome">
+
+
+        <TextView
+            android:id="@+id/guide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Please insert your information:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/guide"
+            android:layout_below="@+id/guide"
+            android:layout_marginTop="15dp"
+            android:text="Height"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/textHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/height"
+            android:layout_below="@+id/height"
+            android:ems="20"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/shoulder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textHeight"
+            android:layout_below="@+id/textHeight"
+            android:layout_marginTop="15dp"
+            android:text="Shoulder Length"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/textShoulder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/shoulder"
+            android:layout_below="@+id/shoulder"
+            android:ems="20"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/bust"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textShoulder"
+            android:layout_below="@+id/textShoulder"
+            android:layout_marginTop="15dp"
+            android:text="Chest Length"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/textChest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/bust"
+            android:layout_below="@+id/bust"
+            android:ems="20"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/waist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textChest"
+            android:layout_below="@+id/textChest"
+            android:layout_marginTop="15dp"
+            android:text="Waist Length"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/textWaist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/waist"
+            android:layout_below="@+id/waist"
+            android:ems="20"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/hip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textWaist"
+            android:layout_below="@+id/textWaist"
+            android:layout_marginTop="15dp"
+            android:text="Hip Length"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/textHip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/hip"
+            android:layout_below="@+id/hip"
+            android:ems="20"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/inseam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textHip"
+            android:layout_below="@+id/textHip"
+            android:layout_marginTop="1dp"
+            android:text="Inseam Length"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/textInseam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/inseam"
+            android:layout_below="@+id/inseam"
+            android:ems="20"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textInseam"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/border_radius"
+            android:padding="0dp"
+            android:text="Submit"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

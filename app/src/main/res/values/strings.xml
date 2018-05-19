@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dress Genie</string>
+    <string name="body_size">Body Size</string>
+    <string name="body_shape">Body Shape</string>
+    <string name="correct">f058</string>
+    <string name="wrong">f057</string>
+    <string name="textview">TextView</string>
+    <string name="avoid">Avoid</string>
+    <string name="category">Category</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_progress">ProgressActivity</string>
+    <string name="title_activity_second_camera">SecondActivityCamera</string>
+    <string name="title_activity_height">HeightActivity</string>
+    <string name="title_activity_third_camera">ThirdActivityCamera</string>
+</resources>

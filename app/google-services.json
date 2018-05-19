@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "310958962139",
+    "firebase_url": "https://dressinggenie.firebaseio.com",
+    "project_id": "dressinggenie",
+    "storage_bucket": "dressinggenie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310958962139:android:87beb40c28dbcf31",
+        "android_client_info": {
+          "package_name": "com.dressing_genie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310958962139-o16j57jmicfduhcoiku89a1a1jo5rfdp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dressing_genie",
+            "certificate_hash": "14e1095de9a6a827d466ecc14dae19f1c5395fa8"
+          }
+        },
+        {
+          "client_id": "310958962139-hdg9uk3sjcrlr3dcrkqgno7enose2vrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7TNgqed8_wafGZ7BI-8blsxGLnQr11l8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310958962139-hdg9uk3sjcrlr3dcrkqgno7enose2vrv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

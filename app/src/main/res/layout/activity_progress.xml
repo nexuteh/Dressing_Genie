@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dressingGenie.Progress">
+
+    <io.netopen.hotbitmapgg.library.view.RingProgressBar
+        android:id="@+id/progress1"
+        android:layout_width="183dp"
+        android:layout_height="192dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="157dp"
+        android:fontFamily="cursive"
+        android:textStyle="normal|bold"
+        app:max="100"
+        app:ringColor="#FFB6C1"
+        app:ringProgressColor="#FF69B4"
+        app:textColor="@android:color/darker_gray"
+        app:textSize="20dp"
+        tools:ringColor="?android:attr/textColorHighlight" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="158dp"
+        android:fontFamily="casual"
+        android:text="Process will take about 1 min"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+
+</RelativeLayout>
