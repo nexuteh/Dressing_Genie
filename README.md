@@ -13,6 +13,20 @@ These instructions will get you a copy of the project up and running on your loc
 5. Install to Android Phone
 6. Run
 
+### Module/functionalities 
+
+1. Calculate body measurement based on images
+2. Suggest apparel based on body size and type
+3. Determine body size and body type based on measurement
+
+### Libraries/external API
+
+1. Firebase
+2. Face++ API
+3. Body detection API
+4. OkHTTP
+5. FotoApparat
+
 ### Prerequisites
 
 What things you need to install the software and how to install them
@@ -32,6 +46,9 @@ What things you need to install the software and how to install them
 5. Check your body size & type
 6. Read suggestion and analysis
 
+
+
+3.      What libraries/external API’s such as Google API or Firebase API are being used(if any)
 
 ## License
 
